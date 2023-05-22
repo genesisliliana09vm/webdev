@@ -1,0 +1,135 @@
+:root {
+    --bitcoin-orange: #be7b29;
+    --soft-orange: #ffe9d5;
+    --sof-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #272727; 
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    font-size: 130%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #1f1e1d 20%,  #bababa 100%);
+
+}
+header img {
+    width: 190px;
+    height: 190px;
+    align-self: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.header--title {
+    display: flex;
+    align-items: center;
+    
+}
+.header--title-container {
+    width: 90px;
+    min-width: 288px;
+    max-width: 900px;
+    
+    margin-top: 40px;
+    text-align: center; 
+    align-self: center; 
+
+}
+.header--title-container h1 {
+    display: block;
+    width: 300px;
+}
+
+ .header--title-container h2 {
+        font-size: 1.7rem;
+        font-weight: bold;
+        line-height: 2.6rem; 
+        color: var(--bitcoin-orange);
+        font-family: 'Courier New', Courier, monospace;
+}
+.header--title-container p {
+    margin-top: 25px;
+    font-size: 1rem;
+    font-weight: 500px;
+    line-height: 0.5rem;
+    color: var(--just-white);
+    
+}
+.header--title-container .header-button {
+    
+    position: absolute;
+    left: calc(15% - 118px);
+    top: 320px;
+    display: block;
+    padding: 5px;
+    width: 310px;
+    height: 48px;
+    
+    background-color: var(--bitcoin-orange);
+    /* sombras */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 10px; /* redondear puntas */ 
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+  }
+   
+
+
+
+main {
+    width: 100%;
+    height: auto; 
+    background-color: var(--off-white);
+    min-width: 320px;
+}
+.main-exchange-container {
+    width: 150%;
+    line-height: 1.90rem;
+    height: auto;
+    padding-left: 30px;
+    min-width: 288px;
+    max-width: 900px;
+    
+}
+.main-exchange-container ul {
+    padding: 1.4rem;
+    color: var(--bitcoin-orange);
+    
+}
+    
+.main-exchange-section {
+    width: 150%;
+    line-height: 1.90rem;
+    height: auto;
+    padding-left: 30px;
+    min-width: 288px;
+    max-width: 900px;
+
+}
+.main-exchange-section ul {
+    padding: 1.4rem;
+    color: var(--bitcoin-orange);
+
+}
